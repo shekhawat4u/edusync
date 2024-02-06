@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h4>EduSync</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <div class="box">
+            <li><a href="https://scholar-saga.web.app/sign-in">Log in</a></li>
+            <li>/</li>
+            <li><a href="https://scholar-saga.web.app/sign-up">Sign up</a></li>
+          </div>
+          
+        </ul>
+        <button id="open-menu-btn"><i class="bx bx-menu"></i></button>
+        <button id="close-menu-btn"><i class="bx bx-x"></i></button>
+      </div>
+    </nav>
+
+
+    <section id="contact" class="contact">
+      <div class="main-text scroll-scale">
+        <span>Ask me question</span>
+        <h2>Contact Me</h2>
+      </div>
+
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="scroll-bottom"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="367ad5c0-2ca0-44b3-9278-610144ed372d"
+        />
+        <input type="text" placeholder="Your Name" name="Name" required />
+        <input type="email" placeholder="Your Email" name="Email" required />
+        <input type="text" placeholder="Your Address" name="Address" required />
+        <input
+          type="number"
+          placeholder="Phone Number"
+          name="Contact Number"
+          required
+        />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <div class="btn-box formBtn">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="container footer__container">
+          <div class="footer__1">
+              <a href="index.html" class="footer__logo"><h4>EduSync</h4></a>
+              <p>Transforming learning experiences with innovative solutions for seamless educational synchronization.</p>
+          </div>
+          <div class="footer__2">
+              <h4>Permalinks</h4>
+              <ul class="permalinks">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer__3">
+              <h4>Privacy</h4>
+              <ul class="privacy">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms and Conditions</a></li>
+                  <li><a href="#">Refund Policy</a></li>
+              </ul>
+          </div>
+          <div class="footer__4">
+              <h4>Contact Us</h4>
+              <div>
+                  <p>+01 234 567 8910</p>
+                  <p>edu.sync.com@gmail.com</p>
+              </div>
+
+              <ul class="footer__socials">
+                  <li>
+                      <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=100046191005844"
+                      ><i class="bx bxl-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://www.instagram.com/_shekhawat4u_/"
+                      ><i class="bx bxl-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://twitter.com/harshvardhan292"
+                      ><i class="bx bxl-twitter"></i
+                    ></a>
+                  </li>
+                  <li> 
+                    <a target="_blank" href="https://github.com/shekhawat4u"
+                    ><i class="bx bxl-github"></i
+                  ></a>
+                  </li>
+              </ul>
+
+          </div>
+          
+      </div>
+      <div class="footer__copyright">
+          <small>Copyright &copy; in 2024 by EduSync</small>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
